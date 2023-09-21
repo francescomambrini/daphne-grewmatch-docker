@@ -9,19 +9,11 @@
         "style": "left_pane",
         "default": "Daphne",
         "corpora": [
-          {
-            "id": "Daphne"
-          }
+          { "id": "Daphne" },
+          { "id": "Homer" },
+          {  "id": "Hesiod" },
+          {  "id": "Tragedy" }
         ]
-      },
-      {
-        "id": "French",
-        "name": "French",
-        "mode": "syntax",
-        "style": "single",
-        "corpora": [{
-          "id": "UD_French-PUD"
-        }]
       }
     ]
   }

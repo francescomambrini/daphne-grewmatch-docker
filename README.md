@@ -17,7 +17,7 @@ docker build -t grewmatch .
 2. run:
 
 ```
-docker run -it --rm -p 8000:8000 -p 8899:8899 grewmatch
+docker run -itd --rm -p 8000:8000 -p 8899:8899 grewmatch
 ```
 
-Use `-d` if you want it in background!
+Use `-d` if you want it in background; `--rm` is used to remove the container once it is stopped.
