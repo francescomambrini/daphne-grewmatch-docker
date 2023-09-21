@@ -21,3 +21,7 @@ docker run -itd --rm -p 8000:8000 -p 8899:8899 grewmatch
 ```
 
 Use `-d` if you want it in background; `--rm` is used to remove the container once it is stopped.
+
+## To do
+
+The docker-compose file does not work: it must be fixed.
