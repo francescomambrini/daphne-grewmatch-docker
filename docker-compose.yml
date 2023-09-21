@@ -1,0 +1,13 @@
+version: "3"
+services:
+  grewmatch:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+      - 8899:8899
+    hostname: localhost
+    volumes:
+      - ./log:/home/opam/grew_match_back/log
+      - ./data:/home/opam/data
+    restart: unless-stopped

@@ -1,0 +1,27 @@
+{
+    "backend_server": "http://localhost:8899/",
+    "default": "Daphne",
+    "groups": [
+      {
+        "id": "Daphne",
+        "name": "Daphne UD",
+        "mode": "syntax",
+        "style": "left_pane",
+        "default": "Daphne",
+        "corpora": [
+          {
+            "id": "Daphne"
+          }
+        ]
+      },
+      {
+        "id": "French",
+        "name": "French",
+        "mode": "syntax",
+        "style": "single",
+        "corpora": [{
+          "id": "UD_French-PUD"
+        }]
+      }
+    ]
+  }
